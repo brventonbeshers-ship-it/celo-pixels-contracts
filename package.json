@@ -1,0 +1,25 @@
+{
+  "name": "celo-pixels-contracts",
+  "version": "1.0.0",
+  "description": "Pixel Canvas dApp on Celo blockchain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network celo"
+  },
+  "keywords": [
+    "celo",
+    "solidity",
+    "smart-contracts",
+    "pixel-canvas",
+    "blockchain",
+    "web3",
+    "nft"
+  ],
+  "author": "brventonbeshers-ship-it",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
